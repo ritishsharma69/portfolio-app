@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# Vite cache and local tokens
+.vite
+.tmp_admin_token
