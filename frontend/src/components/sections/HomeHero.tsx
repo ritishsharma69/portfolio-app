@@ -55,7 +55,7 @@ export default function HomeHero() {
         <Stack direction="row" spacing={1.5} sx={{ mt: 1, flexWrap: 'wrap' }}>
           <Button component={RouterLink} to="/projects" size="medium" variant="contained">View My Work</Button>
           <Button component={RouterLink} to="/contact" size="medium" variant="outlined">Contact</Button>
-          <Button size="medium" variant="text" startIcon={<DownloadIcon />} href="/ritish_Resume.pdf" download="Ritish_Resume.pdf">
+          <Button size="medium" variant="text" startIcon={<DownloadIcon />} href="/RitishS_Resume.pdf" download="RitishS_Resume.pdf">
             Download CV
           </Button>
         </Stack>

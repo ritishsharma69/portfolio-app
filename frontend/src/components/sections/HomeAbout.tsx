@@ -102,7 +102,7 @@ export default function HomeAboutSection({ showTitle = true }: Props) {
             <Typography variant="h6" fontWeight={800}>📄 Resume</Typography>
             <Typography color="text.secondary">Updated: December 2024 • Format: PDF</Typography>
           </Box>
-          <Button variant="contained" href="/ritish_Resume.pdf" download="Ritish_Resume.pdf">Download Resume PDF</Button>
+          <Button variant="contained" href="/RitishS_Resume.pdf" download="RitishS_Resume.pdf">Download Resume PDF</Button>
         </Stack>
       </Paper>
 
@@ -119,7 +119,7 @@ export default function HomeAboutSection({ showTitle = true }: Props) {
         <Typography variant="h6" fontWeight={800} gutterBottom>Let’s connect</Typography>
         <Typography color="text.secondary" sx={{ mb: 2 }}>I’m always excited to discuss new opportunities and collaborate on meaningful projects.</Typography>
         <Stack direction="row" spacing={2} justifyContent="center">
-          <Button variant="contained" href="/ritish_Resume.pdf" download="Ritish_Resume.pdf">Download Resume</Button>
+          <Button variant="contained" href="/RitishS_Resume.pdf" download="RitishS_Resume.pdf">Download Resume</Button>
           <Button variant="outlined">Contact Me</Button>
         </Stack>
       </Paper>

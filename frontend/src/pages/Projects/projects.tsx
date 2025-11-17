@@ -183,7 +183,15 @@ export default function Projects() {
         <Typography color="text.secondary" sx={{ mb: 2 }}>Have an interesting project idea? Let's build something amazing together!</Typography>
         <Stack direction="row" spacing={2} justifyContent="center">
           <Button variant="contained">Start a Project</Button>
-          <Button variant="outlined">View Resume</Button>
+          <Button
+            variant="outlined"
+            component="a"
+            href="/RitishS_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Resume
+          </Button>
         </Stack>
       </Paper>
     </Box>
