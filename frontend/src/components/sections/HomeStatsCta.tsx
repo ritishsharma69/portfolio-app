@@ -22,7 +22,7 @@ function useCountUp(target: number, durationMs = 1200, decimals = 0) {
 }
 
 export default function HomeStatsCta() {
-  const years = useCountUp(1.5, 1200, 1);
+  const years = useCountUp(1.6, 1200, 1);
   const projects = useCountUp(10);
   const clients = useCountUp(10);
   const navigate = useNavigate();

@@ -52,7 +52,11 @@ export default function HomeHero() {
         <Typography color="text.secondary" sx={{ maxWidth: 640 }}>
           "I build digital experiences that users love."
         </Typography>
-        <Stack direction="row" spacing={1.5} sx={{ mt: 1, flexWrap: 'wrap' }}>
+        <Stack
+          direction={{ xs: 'column', sm: 'row' }}
+          spacing={1.5}
+          sx={{ mt: 2, alignItems: { xs: 'flex-start', sm: 'center' } }}
+        >
           <Button component={RouterLink} to="/projects" size="medium" variant="contained">View My Work</Button>
           <Button component={RouterLink} to="/contact" size="medium" variant="outlined">Contact</Button>
           <Button size="medium" variant="text" startIcon={<DownloadIcon />} href="/RitishS_Resume.pdf" download="RitishS_Resume.pdf">

@@ -157,7 +157,7 @@ export default function Projects() {
                 {p.links?.code && (
                   <Button size="small" variant="contained" href={p.links.code} target="_blank" rel="noopener">Code</Button>
                 )}
-                <Button size="small" href={`/projects/${p.slug}`}>Case Study</Button>
+
               </Stack>
             </CardActions>
           </Card>
