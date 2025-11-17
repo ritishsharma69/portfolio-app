@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, type ReactElement } from 'react';
 import { Box, IconButton, Stack, Tooltip } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -21,7 +21,7 @@ export default function HomeSocialBar() {
     { icon: <GitHubIcon />, label: 'GitHub', href: githubHref },
     { icon: <InstagramIcon />, label: 'Instagram', href: instagramHref },
     settings?.email && { icon: <EmailIcon />, label: 'Email', href: `mailto:${settings.email}` },
-  ].filter(Boolean) as Array<{ icon: JSX.Element; label: string; href: string }>;
+  ].filter(Boolean) as Array<{ icon: ReactElement; label: string; href: string }>;
 
   if (!links.length) return null;
 
